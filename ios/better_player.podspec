@@ -21,6 +21,6 @@ A new flutter plugin project.
   s.dependency 'PINCache'
   s.swift_version = '5.0'
   s.platform = :ios, '11.0'
-  s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
+  s.pod_target_xcconfig = { "EXCLUDED_ARCHS" => "arm64 i386" }
 end
 
